@@ -1,0 +1,118 @@
+
+
+/* override browser default */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* use viewport-relative units to cover page fully */
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* full-sized  container that fills up the page */
+div {
+  /* example padding, font-size, background, etc */
+  font-size: 20px;
+  background-color: lightskyblue;
+}
+
+h1,
+h2,
+p {
+  font-family: verdana;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Splash Image */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("images/tomatoes.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* .hero img {
+    flex-shrink: 0;
+    min-width: 100vw;
+    min-height: 70vh;
+} */
+.hero h1{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 7vh;
+}
+.hero p {
+  text-align: center;
+  position: absolute;
+  max-width: 40%;
+  top: 55%;
+  color: white;
+  margin: 5vw;
+}
+
+/* Area Selection */
+.large-area {
+  display: flex;
+  overflow: hidden;
+
+  background-color: black;
+  height: 70vh;
+}
+.left {
+  float: left;
+  width: 30%;
+  background-color: rgba(0,0,0,0);
+  color: white;
+}
+.right {
+  float: right;
+  width: 70%;
+  background-color: rgba(0,0,0,0);
+}
+.right img {
+  max-width: 100%;
+}
+
+.span {
+  margin: 0;
+  overflow: hidden;
+  width: 100vw;
+}
