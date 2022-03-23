@@ -226,6 +226,8 @@ this css. element centers text elements*/
 }
 
 .button-box {
+  padding: 5px;
+  margin: 10px;
   width: 100%;
   height: 100%;
   background-color: green;
