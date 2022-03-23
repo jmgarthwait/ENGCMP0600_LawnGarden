@@ -9,14 +9,14 @@
 
   <body>
 
-    <div class="topnav">
+    <!-- <div class="topnav">
       <a href="#">Text</a>
       <a href="#">Text</a>
       <a href="#">Text</a>
       <a href="#">Text</a>
-    </div>
+    </div> -->
 
-    <!-- Change Title and subtitle. Replace hero image on style.css page. -->
+    <!-- Intro -->
     <div class="hero-image">
         <div class="hero-text">
             <h1>The Lawn Garden Project</h1>
@@ -24,52 +24,57 @@
         </div>
     </div>
 
+    <!-- Open Source Writing -->
     <div class="hero-image">
         <div class="hero-text">
-            <h1>Stuff about open source</h1>
+            <p>Stuff about open source</p>
         </div>
     </div>
 
-
-      <!-- <div class="row" style="height: 30vh; background-color: black;">
-        <div class="column" style=>
-          <h1>Content</h1>
-        </div>
-        <div class="column">
-          <h1>Content</h1>
-        </div>
-        <div class="column">
-          <h1>Content</h1>
-        </div>
-      </div> -->
-
-
-    <div class="bar">
-      <div class="bar-left">
-        <div class="hero-image" style="background-color: blue">
-          <div class="hero-text">
-            <h1>Local Map</h1>
+    <!-- State Picture -->
+    <div class="hero-image">
+      <div class="bar">
+        <div class="bar-left">
+          <div class="hero-image" style="background-color: blue">
+            <div class="hero-text">
+              <h1>Local Map</h1>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="bar-right">
-          <img src="images/Pennsylvania-green.png" alt="">
+        <div class="bar-right" style="position: relative;">
+            <!-- Image of pennsylvania - Leave this be -->
+            <img src="images/Pennsylvania-green.png" alt="">
+
+            <!-- Button template -->
+            <!--
+            <a href="content_template.html" style="position: absolute; top: 330px; left: 80px;"> <button type="button" name="button">Pittsburgh</button> </a>
+            -->
+            <!--
+            Step 1: Copy and paste button template below
+            Step 2: adjust `top: X` and `left: X` to position button where desired on pennsylvania
+            Step 3: change a's `href="X"` to point at your City/Burrow's html page -->
+
+            <!-- Add buttons here -->
+
+            <!-- Pittsburgh -->
+            <a href="content_template.html" style="position: absolute; top: 70%; left: 15%;"> <button type="button" name="button">Pittsburgh</button> </a>
+
+            <!-- Philadelphia -->
+            <a href="content_template.html" style="position: absolute; top: 80%; left: 85%;"> <button type="button" name="button">Philadelphia</button> </a>
+        </div>
       </div>
     </div>
 
-    <div class="hero-image">
+
+    <!-- Bottom Buttons -->
+    <!-- <div class="hero-image">
         <div class="hero-text">
+
             <div class="row">
               <div class="column">
                 <div class="button-box">
-                  <p>Conversion</p>
-                </div>
-              </div>
-
-              <div class="column">
-                <div class="button-box">
-                  <p>Law</p>
+                  <p>Conversion Process</p>
                 </div>
               </div>
 
@@ -93,6 +98,16 @@
 
             </div>
         </div>
+    </div> -->
+    <div class="hero-image">
+        <div class="hero-text">
+              <a href="#"><div class="button-box"><p>Conversion Process</p></div></a>
+              <a href="#"><div class="button-box"><p>Plant Care</p></div></a>
+              <a href="#"><div class="button-box"><p>Ethics</p></div></a>
+              <a href="#"><div class="button-box"><p>Inclusion</p></div></a>
+            </div>
+        </div>
     </div>
+
   </body>
 </html>
